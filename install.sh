@@ -1,8 +1,8 @@
 #!/bin/bash
-# declare STRING variable
+
 STRING="Installing ..."
-#print variable on a screen
 echo $STRING
+
 sudo apt install python3-pip
 sudo pip3 install Jetson.GPIO
 sudo groupadd -f -r gpio
